@@ -11,8 +11,8 @@
 
 ## PCB render
 
-![PCBrender](/docs/m47BoardV1render.png)
+![PCBrender](/doc/m47BoardV1render.png)
 
 ## Schematic
 
-![Schematic](/docs/m47BoardV0.svg)
+![Schematic](/doc/m47BoardV0.svg)
