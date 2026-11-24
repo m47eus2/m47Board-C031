@@ -1,4 +1,4 @@
-# m47Board
+# m47Board-C031
 
 ## Custom PCB designed for STM32 Dev Board
 - STM32C031C6T6 MCU

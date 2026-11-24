@@ -50,7 +50,23 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "border_display_style": 2,
+          "border_hatch_pitch": 0.5,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
+          "fill_mode": 0,
+          "hatch_gap": 1.5,
+          "hatch_orientation": 0.0,
+          "hatch_smoothing_level": 0,
+          "hatch_smoothing_value": 0.1,
+          "hatch_thickness": 1.0,
+          "min_clearance": 0.5,
+          "min_island_area": 10.0,
+          "min_thickness": 0.25,
+          "pad_connection": 1,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -60,7 +76,100 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|24800000|30550000|087ddfd4-7280-469a-a2be-6f38c54273f9|a57e817c-c185-4d92-a226-9c7a1854dc2e",
+          ""
+        ],
+        [
+          "clearance|26150000|28700000|a57e817c-c185-4d92-a226-9c7a1854dc2e|fc60669d-6fa7-48d2-9e78-f265f9ae9e73",
+          ""
+        ],
+        [
+          "clearance|26380000|44215517|5c47c577-c9bb-4205-8297-10b66e42f636|a57e817c-c185-4d92-a226-9c7a1854dc2e",
+          ""
+        ],
+        [
+          "clearance|26950000|47250000|a57e817c-c185-4d92-a226-9c7a1854dc2e|c05388bc-0785-4ffe-8168-439d4fdbfcaf",
+          ""
+        ],
+        [
+          "clearance|27050000|29801724|38afa82e-7f0c-4848-b9e6-d34de7658c8c|a57e817c-c185-4d92-a226-9c7a1854dc2e",
+          ""
+        ],
+        [
+          "clearance|27160000|44974138|a57e817c-c185-4d92-a226-9c7a1854dc2e|d16c9765-1e10-46d8-b020-dcc79d378f12",
+          ""
+        ],
+        [
+          "clearance|28000000|30400000|229de423-ef6d-489d-ae6e-9678db9beb3a|a57e817c-c185-4d92-a226-9c7a1854dc2e",
+          ""
+        ],
+        [
+          "clearance|28560345|35100000|62df6523-82fb-4571-a8d6-4875ab3d9823|a57e817c-c185-4d92-a226-9c7a1854dc2e",
+          ""
+        ],
+        [
+          "clearance|29741119|44215517|095f9724-107c-4ed9-8426-ea85549c39a2|a57e817c-c185-4d92-a226-9c7a1854dc2e",
+          ""
+        ],
+        [
+          "clearance|31200000|47200000|07618e7a-bcdb-4191-b7ea-05aba983141d|a57e817c-c185-4d92-a226-9c7a1854dc2e",
+          ""
+        ],
+        [
+          "clearance|31900000|27750000|a57e817c-c185-4d92-a226-9c7a1854dc2e|aa0a43f5-c252-46fd-940c-2e14459f8ba1",
+          ""
+        ],
+        [
+          "clearance|32540000|44850000|a57e817c-c185-4d92-a226-9c7a1854dc2e|eeb5d678-fd27-4ba8-aad0-cc6836c6da52",
+          ""
+        ],
+        [
+          "clearance|33112069|38100000|8f98caa7-d43e-4f9b-befc-b318f4f07be6|a57e817c-c185-4d92-a226-9c7a1854dc2e",
+          ""
+        ],
+        [
+          "clearance|33400000|47200000|a43c7ba0-e8f0-4daa-b2b8-8bf16b809ac1|a57e817c-c185-4d92-a226-9c7a1854dc2e",
+          ""
+        ],
+        [
+          "clearance|34450000|41950000|a57e817c-c185-4d92-a226-9c7a1854dc2e|a8c1486e-5b97-4a2e-aa5a-648512aa076c",
+          ""
+        ],
+        [
+          "clearance|34629310|39900000|a57e817c-c185-4d92-a226-9c7a1854dc2e|b92e5127-1e7a-4645-af34-e12a438a079f",
+          ""
+        ],
+        [
+          "clearance|37400000|27525862|026c7e28-968d-4f6d-89a9-65bebd84ff0d|a57e817c-c185-4d92-a226-9c7a1854dc2e",
+          ""
+        ],
+        [
+          "clearance|39800000|35150000|a57e817c-c185-4d92-a226-9c7a1854dc2e|f1013e41-7b2f-4268-8e84-d7d34fe1cacc",
+          ""
+        ],
+        [
+          "clearance|39900000|33100000|74de50db-44d0-4114-ba01-84c6e2f0791f|a57e817c-c185-4d92-a226-9c7a1854dc2e",
+          ""
+        ],
+        [
+          "clearance|39939655|28100000|1aa5a499-4124-4988-905e-3bb97bf126bd|a57e817c-c185-4d92-a226-9c7a1854dc2e",
+          ""
+        ],
+        [
+          "clearance|39939655|45692500|a57e817c-c185-4d92-a226-9c7a1854dc2e|ebd5c41e-9b5b-48bf-ab5c-e2c05248c721",
+          ""
+        ],
+        [
+          "clearance|42200000|31318966|59cc9e11-69b2-4eaf-8d67-5d5faa1875ae|a57e817c-c185-4d92-a226-9c7a1854dc2e",
+          ""
+        ],
+        [
+          "clearance|44300000|47000000|3481c043-a8e5-4700-a0f7-154c8a82a6eb|a57e817c-c185-4d92-a226-9c7a1854dc2e",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -140,7 +249,7 @@
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
+        "min_text_height": 0.7,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.15,
         "min_track_width": 0.1,
@@ -162,6 +271,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -173,6 +283,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -184,6 +295,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -476,6 +588,7 @@
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -523,8 +636,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
+    "net_colors": {},
+    "netclass_assignments": {},
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -533,6 +646,7 @@
       "netlist": "",
       "plot": "gerber/",
       "specctra_dsn": "",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
